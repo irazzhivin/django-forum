@@ -43,3 +43,4 @@ export SECRET_KEY='NEW_KEY_GENERATED_IN_STEP1'
 ```
 
 2. DEBUG is enabled by default. To disable it, set the environment variable.
+3. DISABLE_COLLECTSTATIC = 1
