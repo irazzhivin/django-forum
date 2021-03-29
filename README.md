@@ -26,6 +26,10 @@ python manage.py runserver
 
 TODO: create comments block under gallery
 
+## Screenshots
+[example1](/media/images/1.png "example1")
+[example2](/media/images/2.png "example2")
+
 ## To use in prod:
 1. Set a secret key for the development
 
