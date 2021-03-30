@@ -26,6 +26,10 @@ python manage.py runserver
 
 TODO: create comments block under gallery
 
+## Live view
+
+Example deploy: https://django-imageboard-i93xv.ondigitalocean.app/
+
 ## Screenshots
 ![example1](/media/images/1.png "example1")
 ![example2](/media/images/2.png "example2")
