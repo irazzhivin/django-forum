@@ -25,6 +25,6 @@ urlpatterns = [
     path('', views.blog_view, name='blog'),
     path('create-post/', views.create_post_view, name='create-post'),
     path('update-post/', views.update_post_view, name='update-post'),
-    path('<int:id>/', views.gallery_view, name='detail'),
+    path('<int:id>/', views.detail_view, name='detail'),
     path('delete-image/<int:id>', views.delete_image, name="delete_image"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
