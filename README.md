@@ -1,7 +1,7 @@
 # django-imageboard
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Image gallery site based on the Django Framework. Example deploy: https://django-imageboard-i93xv.ondigitalocean.app/
+Image gallery site based on the Django Framework. Example deploy: https://django.mitrich.digital/
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ TODO: create comments block under gallery
 
 ## Live view
 
-Example deploy: https://django-imageboard-i93xv.ondigitalocean.app/
+Example deploy: https://django.mitrich.digital/
 
 ## Screenshots
 ![example1](/media/images/1.png "example1")
