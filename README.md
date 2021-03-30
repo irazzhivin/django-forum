@@ -1,7 +1,7 @@
 # django-imageboard
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Image gallery site based on the Django Framework
+Image gallery site based on the Django Framework. Example deploy: https://django-imageboard-i93xv.ondigitalocean.app/
 
 ## Getting Started
 
