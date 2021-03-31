@@ -27,4 +27,7 @@ urlpatterns = [
     path('update-post/', views.update_post_view, name='update-post'),
     path('<int:id>/', views.detail_view, name='detail'),
     path('delete-image/<int:id>', views.delete_image, name="delete_image"),
+    path("register/", views.register_request, name="register"),
+    path("login", views.login_request, name="login"),
+    path("logout", views.logout_request, name= "logout"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
