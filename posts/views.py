@@ -63,7 +63,6 @@ def login_request(request):
 	form = AuthenticationForm()
 	return render(request=request, template_name="login.html", context={"login_form":form})
 
-@login_required
 def gallery_view(request, id):
     post = get_object_or_404(Post, id=id)
     photos = PostImage.objects.filter(post=post)
